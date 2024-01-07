@@ -9,4 +9,3 @@ def multiple_returns(sentence):
 
     mytuple = (length, first)
     return mytuple
-
