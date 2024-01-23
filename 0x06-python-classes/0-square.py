@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 
 """
-This is an empty class
+This is an empty class module
 """
 
-class square:
+
+class Square:
+    """
+    this is an empty square class
+    """
     pass
