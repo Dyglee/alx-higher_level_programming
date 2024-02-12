@@ -4,12 +4,12 @@
 
 class Base:
     """Base class for other classes in the project."""
-    
+
     __nb_objects = 0
 
     def __init__(self, id=None):
         """Initialize a new Base.
-        
+
         Args:
             id (int): The identity of the new Base instance.
         """
