@@ -1,4 +1,5 @@
 #!/usr/bin/node
+
 /*
  * This script writes a string to a file.
  * The first argument is the file path.
@@ -19,6 +20,5 @@ if (!filePath || !fileContent) {
 fs.writeFile(filePath, fileContent, 'utf8', (err) => {
   if (err) {
     console.error(err);
-    return;
   }
 });
